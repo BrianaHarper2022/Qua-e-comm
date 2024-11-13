@@ -42,6 +42,12 @@ textarea {
     margin: 0 auto;
 }
 
+.about-img {
+    position: relative;
+    top: 100px; 
+    left: 13px;
+}
+
 .contact-img {
     margin: 50px 10px 10px 10px;
 }
