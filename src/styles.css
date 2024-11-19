@@ -168,3 +168,7 @@ textarea {
 .faq-box a {
     color: white;
 }
+
+.faq-box a:hover {
+    color: #8D65C5;
+}
