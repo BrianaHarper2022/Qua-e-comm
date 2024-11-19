@@ -87,7 +87,7 @@ textarea {
     padding: 10px 16px;
     font-size: 17px;
     color: #660066;
-    background-color: #white;
+    background-color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -156,4 +156,15 @@ textarea {
     margin: 20px auto;
     padding: 12px 20px 12px 15px;
     text-transform: uppercase;
+}
+
+.faq-box {
+    padding: 15px 120px;
+  border-radius: 10px;
+  background-color: #660066;
+  color: white;
+}
+
+.faq-box a {
+    color: white;
 }
