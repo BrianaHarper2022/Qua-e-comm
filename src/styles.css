@@ -108,6 +108,13 @@ textarea {
     position: relative;
     top: 100px; 
     left: 13px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.about-content {
+    text-align: justify;
 }
 
 .contact-img {
@@ -160,9 +167,9 @@ textarea {
 
 .faq-box {
     padding: 15px 120px;
-  border-radius: 10px;
-  background-color: #660066;
-  color: white;
+    border-radius: 10px;
+    background-color: #660066;
+    color: white;
 }
 
 .faq-box a {
@@ -171,4 +178,73 @@ textarea {
 
 .faq-box a:hover {
     color: #8D65C5;
+}
+
+@media (max-width:375px){
+    header h1 {
+        font-size: 35px;
+    }
+
+    .product-title {
+        font-size: 18px;
+    }
+
+    .product-price {
+        font-size: 14px;
+    }
+
+    .add-to-cart {
+        font-size: 14px;
+    }
+
+    .about-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-img {
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .about-content {
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .contact-img {
+        max-width: 100%
+    }
+
+    .contact-header {
+        font-size: 24px;
+    }
+
+    .contact-form {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .name, .email, .tel, .message {
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    .contact-content-p {
+        margin: 20px 5px;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 5px 15px;
+    }
+
 }
