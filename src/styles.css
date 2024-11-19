@@ -180,7 +180,7 @@ textarea {
     color: #8D65C5;
 }
 
-@media (max-width:375px){
+@media (max-width:900px){
     header h1 {
         font-size: 35px;
     }
