@@ -37,6 +37,68 @@ textarea {
     padding: 277px 0;
 }
 
+.product-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 30px;
+}
+  
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+  
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
+.product-details {
+    padding: 16px;
+    text-align: center;
+    background-color: #660066;
+}
+  
+.product-title {
+    font-size: 23px;
+    margin: 0 0 8px;
+    color: white;
+}
+  
+.product-price {
+    font-size: 19px;
+    margin: 0 0 12px;
+    color: white;
+}
+  
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 16px;
+}
+  
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 17px;
+    color: #660066;
+    background-color: #white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+  
+.add-to-cart:hover {
+    background-color: #660066;
+    color: #fff;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -68,7 +130,21 @@ textarea {
     padding: 20px;
 }
 
-.contact-button {
+.name, .email, .tel, .message {
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    padding: 12px 10px 12px ;
+    margin: 20px auto;
+    width: 400px;
+    place-items: center;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+.contact-button, .button {
     background-color: #660066;
     border-radius: 5px;
     color: white;
