@@ -29,10 +29,10 @@ textarea {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(239, 187, 255, 0.3), rgba(239, 187, 255, 0.3)), url("../images/yarn-ball.jpg");
+    background-image: linear-gradient(rgba(102, 0, 102, 0), rgba(102, 0, 102, 0.3)), url("../images/purple-yarn.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    color: #660066;
+    color: white;
     text-align: center;
     padding: 277px 0;
 }
@@ -61,7 +61,7 @@ textarea {
 .product-details {
     padding: 16px;
     text-align: center;
-    background-color: #660066;
+    background-color: #48096b;
 }
   
 .product-title {
@@ -246,4 +246,14 @@ textarea {
         padding: 5px 15px;
     }
 
+}
+
+.scroll-card-container {
+    white-space: nowrap;
+    display: flex;
+    gap: 1em; 
+}
+
+.card .product-title {
+    font-size: smaller;
 }
