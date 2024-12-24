@@ -172,7 +172,39 @@ textarea {
 
 @media (max-width:900px){
     header h1 {
-        font-size: 35px;
+        font-size: 40px;
+    }
+    
+    .scroll-card-container {
+        display: flex;
+        gap: 1em;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 1em 0;
+    }
+    
+    .scroll-card-container::-webkit-scrollbar {
+        height: 8px;
+    }
+    
+    .scroll-card-container::-webkit-scrollbar-thumb {
+        background: #48096b;
+        border-radius: 4px;
+    }
+    
+    .scroll-card-container::-webkit-scrollbar-track {
+        background: #f0f0f0;
+    }
+    
+    .product-card {
+        flex: 0 0 auto;
+        width: 80%;
+        max-width: 300px;
+    }
+    
+    .product-image {
+        max-width: 100%;
+        height: auto;
     }
 
     .product-title {
