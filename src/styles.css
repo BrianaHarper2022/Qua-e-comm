@@ -14,16 +14,6 @@ p {
     margin: 10px;
 }
 
-.name, .email, .tel, .message {
-    border: 1px solid;
-    border-radius: 5px;
-    display: flex;
-    padding: 12px 10px 12px ;
-    margin: 20px auto;
-    width: 400px;
-    place-items: center;
-}
-
 textarea {
     border-radius: 5px;
 }
@@ -35,6 +25,16 @@ textarea {
     color: white;
     text-align: center;
     padding: 277px 0;
+}
+
+.scroll-card-container {
+    white-space: nowrap;
+    display: flex;
+    gap: 1em; 
+}
+
+.card .product-title {
+    font-size: smaller;
 }
 
 .product-card {
@@ -75,13 +75,7 @@ textarea {
     margin: 0 0 12px;
     color: white;
 }
-  
-.product-description {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 16px;
-}
-  
+
 .add-to-cart {
     display: inline-block;
     padding: 10px 16px;
@@ -145,10 +139,6 @@ textarea {
     margin: 20px auto;
     width: 400px;
     place-items: center;
-}
-
-textarea {
-    border-radius: 5px;
 }
 
 .contact-button, .button {
@@ -245,15 +235,4 @@ textarea {
         margin: 0 auto;
         padding: 5px 15px;
     }
-
-}
-
-.scroll-card-container {
-    white-space: nowrap;
-    display: flex;
-    gap: 1em; 
-}
-
-.card .product-title {
-    font-size: smaller;
 }
